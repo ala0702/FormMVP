@@ -6,6 +6,11 @@ Basic form with MVP architecture
 
 The FormMVP project is a sample desktop application created in C# using the MVP (Model-View-Presenter) architecture. The application includes a basic form that demonstrates how to organize code according to the MVP architecture, making it easier to maintain and expand the project.
 
+## Data Storage
+
+The application uses XML format to store employee data. Data is saved and retrieved from an XML file using the `EmployeeList` class.
+
+
 ## Architecture
 
 The FormMVP project follows the MVP architecture, which divides the application into three main components:
